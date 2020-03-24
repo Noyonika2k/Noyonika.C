@@ -1,0 +1,183 @@
+body {
+  background-color: #effffb;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 0 auto;
+
+  padding-top:65px;
+  font-family: 'Ruthie', cursive;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+h2{
+  margin-bottom: 80px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Sen', sans-serif;
+  margin: 15px auto;
+}
+.hey{
+  margin:30px auto;
+}
+
+hr{
+  border:none;
+  border-top:dotted;
+  width:7%;
+  border-width: 6px;
+  height:0;
+  margin:60px auto;
+  color:#ebe6e6;
+
+}
+
+a {
+  color: #11999E;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  margin:40px;
+
+}
+a:hover{
+  color:#effffb;
+}
+
+
+
+img {
+  height: 80px;
+  width: 120px;
+  position: relative;
+  top: 10px;
+}
+.profile-pic{
+  height:200px;
+  width:200px;
+  margin:10px;
+}
+
+.dance-pic{
+  height:100px;
+  width:100px;
+  float:left;
+  margin-right: 20px;
+}
+
+.hike-pic{
+  height:100px;
+  width:100px;
+  float:right;
+  margin-left: 20px;
+}
+
+p {
+  margin: 0;
+  border:0;
+
+}
+
+.dance{
+  margin:10px auto 70px  ;
+  line-height: 1.5;
+    width:700px;
+
+}
+.hike{
+  width:700px;
+  margin:10px auto 70px ;
+    line-height: 1.5;
+}
+
+.top {
+  background-color: #d5f4e6;
+  padding-top: 50px ;
+  padding-bottom: 100px;
+
+}
+
+.middle-container {
+  position: relative;
+  padding-top:100px ;
+}
+
+.bottom-container{
+
+  position:relative;
+  background-color: #8ac6d1;
+  padding-bottom:35px;
+  padding-top: 30px;
+  margin-top:50px;
+}
+
+.info {
+  font-weight: normal;
+}
+
+.mountain{
+  height:240px;
+  width:240px;
+  margin:20px auto 0;
+}
+.cloud1{
+
+  height:70px;
+  width:100px;
+  position:absolute;
+  top:15%;
+  right:24%;
+}
+.cloud2{
+  height:70px;
+  width:100px;
+  position:absolute;
+  top:35%;
+  left:25%;
+}
+
+.skill-row{
+  width:55%;
+  margin:100px auto;
+}
+
+.copyright{
+
+  margin-top: 80px;
+  margin-bottom:10px;
+  color:#d5f4e6;
+
+
+}
+
+
+
+
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:10px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
